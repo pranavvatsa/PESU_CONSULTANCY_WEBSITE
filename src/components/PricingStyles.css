@@ -1,6 +1,6 @@
 .pricing {
     width: 100%;
-    padding: 6rem 1rem;
+    padding: 4rem 3rem;
     background-color: #000;
 }
 
@@ -10,6 +10,11 @@
     display: grid;
     grid-gap: 40px;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.heading-title{
+    text-align: center;
+    padding-bottom: 3rem;
 }
 
 .card-container .card {

@@ -14,7 +14,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='phone'>
-                        <h4><FaPhone size={20} style={{ color: '#ffffff', marginRight: '2rem' }} /> 999999</h4>
+                        <h4><FaPhone size={20} style={{ color: '#ffffff', marginRight: '2rem' }} />+91-987654321</h4>
                     </div>
                     <div className='email'>
                         <h4><FaMailBulk size={20} style={{ color: '#ffffff', marginRight: '2rem' }} /> pescon@gmail.com</h4>
@@ -22,7 +22,7 @@ const Footer = () => {
                 </div>
                 <div className='right'>
                     <h4>About the company</h4>
-                    <p>"We aim at bringing students with interest "</p>
+                    <p>"We aim at helping out Student run clubs at PES University"</p>
                     <div className='social'>
                         <FaFacebook size={30} style={{ color: '#ffffff', marginRight: '1rem' }} />
                         <FaTwitter size={30} style={{ color: '#ffffff', marginRight: '1rem' }} />

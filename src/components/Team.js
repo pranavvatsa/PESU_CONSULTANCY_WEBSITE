@@ -3,28 +3,42 @@ import './TeamStyles.css'
 
 import {Link} from 'react-router-dom'
 
-import Pod from '../assets/pod.jpg'
-import Moon from '../assets/moon.jpg'
 
 const Team = () => {
     return (
-        <div className='team'>
-            <div className='left'>
-                <h1>Team members</h1>
-                <p>Thorough training is a necessity when traveling to space. We offer all inclusive training for pre-flight and in-flight scenarios.</p>
-                <Link to='/contact'><button className='btn'>Contact</button></Link>
-            </div>
-            <div className='right'>
-                <div className='img-container'>
-                    <div className='image-stack top'>
-                        <img src={Moon} className='img' alt='' />
+
+        <div class="container">
+            <div class="col-md-3 col-sm-6">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="pranav.jpeg"/>
                     </div>
-                    <div className='image-stack bottom'>
-                        <img src={Pod} className='img' alt='' />
-                    </div>
+                    <h3 class="title">Pranav Vatsa</h3>
+                    <span class="post">Head-Technology Consulting</span>
                 </div>
             </div>
-        </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="ranjana.jpeg"/>
+                    </div>
+                    <h3 class="title">Ranajana V</h3>
+                    <span class="post">Head-Co Curicular Consulting</span>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="pradyun.jpeg"/>
+                    </div>
+                    <h3 class="title">Pradyun P Rao</h3>
+                    <span class="post">Career Counselling Specialist</span>
+                </div>
+            </div>
+
+                </div>
     )
 }
 

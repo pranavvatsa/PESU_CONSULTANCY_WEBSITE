@@ -5,36 +5,43 @@ import './PricingStyles.css'
 const Pricing = () => {
     return (
         <div className='pricing'>
+            <div class="row">
+                        <div class="heading-title text-center">
+                            <h1 class="text-uppercase">Our services </h1>
+                            <p class="p-top-30 half-txt">Departments </p>
+                        </div>
+                        </div>
+
             <div className='card-container'>
                 <div className='card'>
-                    <h3>- Basic -</h3>
+                    <h3>- Academic -</h3>
                     <span className='bar'></span>
-                    <p className='btc'>1 BTC</p>
+                    <img src='coding.jpg'/>
+                    <span className='bar'></span>
                     <p>- 3 Days -</p>
                     <p>- Views -</p>
                     <p>- Featured -</p>
-                    <p>- Private Quarters -</p>
-                    <Link to='/contact' className='btn'>Book</Link>
+                    <Link to='/contact' className='btn'>Contact</Link>
                 </div>
                 <div className='card'>
-                    <h3>- Suite -</h3>
+                    <h3>- Non-Academic -</h3>
                     <span className='bar'></span>
-                    <p className='btc'>1 BTC</p>
+                    <img src='nonAC.jpg'/>
+                    <span className='bar'></span>
                     <p>- 3 Days -</p>
                     <p>- Views -</p>
                     <p>- Featured -</p>
-                    <p>- Private Quarters -</p>
-                    <Link to='/contact' className='btn'>Book</Link>
+                    <Link to='/contact' className='btn'>Contact</Link>
                 </div>
                 <div className='card'>
-                    <h3>- Executive -</h3>
+                    <h3>- Career Counselling -</h3>
                     <span className='bar'></span>
-                    <p className='btc'>1 BTC</p>
+                    <img src='CC.jpg'/>
+                    <span className='bar'></span>
                     <p>- 3 Days -</p>
                     <p>- Views -</p>
                     <p>- Featured -</p>
-                    <p>- Private Quarters -</p>
-                    <Link to='/contact' className='btn'>Book</Link>
+                    <Link to='/contact' className='btn'>Contact</Link>
                 </div>
             </div>
         </div>

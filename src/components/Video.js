@@ -14,8 +14,8 @@ const Video = () => {
                 <h1>PESU CONSULTANCY</h1>
                 <p>Student run consultancy club</p>
                 <div>
-                    <Link to='/training' className='btn'>Events</Link>
-                    <Link to='/contact' className='btn btn-light'>Sign Up</Link>
+                    <Link to='/team' className='btn'>Team</Link>
+                    <Link to='/contact' className='btn btn-light'>Contact</Link>
                 </div>
             </div>
         </div>
